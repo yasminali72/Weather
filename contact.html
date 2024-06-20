@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg pt-5 pb-5">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center "
+            href="index.html"
+          >
+            <img src="images/logo2x.png" alt="" />
+            <div class="text">
+              <h1 class="site-title text-capitalize fs-6">Company name</h1>
+              <p class="site-description m-0">tagline goes here</p>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse   " id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="live.html">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photo.html">Photos</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link active border-bottom-0" href="contact.html" >Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="content ">
+          <div class="container">
+            <div class="breadcrump d-flex align-items-center ">
+              <a href="index.html"
+                ><span>Home</span><i class="fa-solid fa-arrow-right ms-1"></i
+              ></a>
+              <span class="ms-1 mb-0">Contact</span>
+            </div>
+
+            <div class="Contact ">
+              <div class="row gy-1">
+                <div class="col-md-5">
+                  <div class="contact-details rounded-3">
+                    <div class="map" ></div>
+
+                    <div class="contact-info">
+                      <div class="address d-flex justify-content-start">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>
+                          Company Name INC. <br />
+                          2803 Avenue Street, Los Angeles
+                        </p>
+                      </div>
+                      <div class="div d-flex justify-content-start">
+                        <div class="phone">
+                          <a href="" class="text-decoration-none"
+                            ><i class="fa-solid fa-phone"></i>+1 800 314 235</a
+                          >
+                        </div>
+                        <div class="email">
+                          <a href="" class="text-decoration-none"
+                            ><i class="fa-solid fa-envelope m-0 ms-2"></i>
+                            contact@companyname.com</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 offset-lg-1">
+                  <h1 class="text-white">Contact us</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Commodi consectetur inventore ducimus, facilis, numquam id
+                    soluta omnis eius recusandae nesciunt vero repellat harum
+                    cum. Nisi facilis odit hic, ipsum sed!
+                  </p>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        placeholder="Your Name.."
+                        class="name w-100 p-3 rounded-5 mb-3"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        placeholder="Email Address.."
+                        class= "user-email w-100 p-3 rounded-5 mb-3"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        placeholder="Company name.."
+                        class="company w-100 p-3 rounded-5 mb-3"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="url"
+                        placeholder="Website.."
+                        class="websiteURL w-100 p-3 rounded-5 mb-3"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        type="text"
+                        placeholder="Message..."
+                        class="w-100 p-3 rounded-5 mb-1"
+                        style="min-height: 150px"
+                        
+                      ></textarea>
+                    </div>
+                    <div class="submit">
+                      <input type="submit" onclick="clearData()"   class="rounded-5 border-0" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-8 mb-3">
+            <form class="subscribe position-relative">
+              <input
+                type="email"
+                placeholder="Enter your email to describe"
+                class="w-100 border-0 text-white"
+              />
+              <input
+                type="button"
+                value="Subscribe"
+                class="position-absolute text-white border-0"
+              />
+            </form>
+          </div>
+          <div class="col-md-4">
+            <div class="socail-icons d-flex justify-content-lg-center">
+              <a
+                href=""
+                class="d-flex justify-content-center align-items-center text-decoration-none"
+              >
+                <i class="fa-brands fa-facebook-f fs-5"></i>
+              </a>
+              <a
+                href=""
+                class="d-flex justify-content-center align-items-center text-decoration-none"
+                ><i class="fa-brands fa-twitter fs-5"></i>
+              </a>
+              <a
+                href=""
+                class="d-flex justify-content-center align-items-center text-decoration-none"
+              >
+                <i class="fa-brands fa-google-plus-g fs-5"></i>
+              </a>
+              <a
+                href=""
+                class="d-flex justify-content-center align-items-center text-decoration-none"
+              >
+                <i class="fa-brands fa-pinterest fs-5"></i>
+              </a>
+            </div>
+          </div>
+          <p>
+            Copyright 5014 Company name. Designed by Themezy. All rights
+            reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
