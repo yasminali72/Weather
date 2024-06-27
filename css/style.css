@@ -233,7 +233,7 @@ textarea:hover {
 
 .map{
   height: 200px;
-  width: 100px;
+  width: 100%;
 }
 .Contact{
   padding: 70px 15px;

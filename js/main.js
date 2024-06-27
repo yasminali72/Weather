@@ -23,7 +23,7 @@ cityInput.addEventListener("input", function () {
 });
 
 // weather
-async function getWeather(city) {
+async function getWeather(city='cairo') {
   let dataWeek = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=038c17b596fb4d68a6c94356241406&q=${city}&days=7`);
   let responseWeek = await dataWeek.json();
   // console.log(responseWeek);
@@ -53,7 +53,7 @@ async function getWeather(city) {
 
 
 }
-
+getWeather()
 // display
 function displayWeather(address) {
   document.querySelector(".location").innerHTML = `${address}`;
@@ -198,6 +198,25 @@ websiteURL.value=null
 message.value=null
 }
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
